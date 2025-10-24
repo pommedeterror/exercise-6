@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-CA">
   <head>
     <title>Exercise 7: Banh Mi, menus, and layout</title>
     <!-- This is embed code for Google fonts, take a look at  https://fonts.google.com/ for more info, you can just pick fonts and get an embed code which you use here. See how I am controlling them from <style> most of the CSS is just pasted in from Google and I have made tweaks to the weights and added other bits. This is what we will learn next week.-->
@@ -19,10 +19,15 @@
       }
 
       h1 {
+        text-align: center;
         font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+      }
+      
+      h2 {
+        text-align: center;
       }
 
       #site-title {}
@@ -54,10 +59,18 @@
         color: aqua;
       }
 
-      footer {}
+      footer {
+        text-align: center;
+      }
       
       img {
         width: 100%;
+      }
+      
+      p {
+        text-align: center;
+        padding: 35px;
+        padding-top: 0px;
       }
 
       .container {
@@ -65,10 +78,12 @@
         grid-template-columns: 50% 50%;
         gap: 20px;
       }
+
       
       .grid-item {
         margin: 10px;
-        padding: 10px;
+/*         padding: 10px;  */
+        background-color: lightgrey;
       }
       
     </style>
